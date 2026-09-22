@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "noendermen",
+  "version": "${version}",
+  "name": "No Endermen",
+  "description": "Removes Endermen the instant they load into the world, from any spawn source (natural spawning, spawners, spawn eggs, /summon).",
+  "authors": [
+    "Mag"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mag.noendermen.NoEndermenMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
